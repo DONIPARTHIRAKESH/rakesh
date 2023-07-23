@@ -1,0 +1,7 @@
+pin,cash=input("enter your pin and cash").split(',')
+print(type(cash))
+cashamount=int(cash)
+print("pin and cash",pin,cash)
+accountbalance=5000
+remainingamount=accountbalance-cashamount
+print('please take the cash{},remainingbalance{}'.format(cashamount,remainingamount))
